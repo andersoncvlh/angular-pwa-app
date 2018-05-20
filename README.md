@@ -1,7 +1,18 @@
 # OakFinancas
 
+A experience with Angular 6 and PWA.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
+## Service Worker
+* `ng add  @angular/pwa --project *project-name*`
+* `ng build --prod --build-optimizer`
+* `cd dist/*project-name*`
+* `http-server -p 8080` //before, remember install it global
+
+
+
+# Default comments of AngularCLI
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
